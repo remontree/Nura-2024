@@ -32,7 +32,7 @@ public:
     int8_t getSensorMode(){
         return _sensorMode;
     }
-    
+   
 private:
     int8_t *_data;
     int8_t _dataLength, _sensorMode;
